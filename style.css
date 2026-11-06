@@ -1,0 +1,481 @@
+
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #A5C9CA;
+	font-family: 'lora';
+	font-size: 13px;
+	color: #2E2E2E;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #2E4052;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 2.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #5BA689;
+}
+
+a:hover {
+}
+
+#wrapper {
+	overflow: hidden;
+	background: #F2E9E4;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+/* Header */
+
+#header-wrapper {
+	overflow: hidden;
+	height: 600px;
+}
+
+#header {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+/* Logo */
+
+#logo {
+	overflow: hidden;
+	height: 150px;
+}
+
+#logo h1, #logo p {
+	text-align: center;
+}
+
+#logo h1 {
+	padding: 5px 0px 20px 0px;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	font-size: 80px;
+	font-weight: 700;
+}
+
+#logo p {
+	margin-top: -20px;
+	padding: 0px 0px 0px 5px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #696969;
+}
+
+#logo p a {
+	color: #696969;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #3C342E;
+}
+
+
+/* Menu */
+
+#menu-wrapper {
+	overflow: hidden;
+	height: 52px;
+	margin-bottom: 2em;
+	background: #A5C9CA;
+}
+
+#menu {
+	overflow: hidden;
+	height: 52px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 15px;
+	line-height: 52px;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Lora' serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #2E4052;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+}
+
+/* About Me container */
+#page .entry {
+    background: #FFFFFF;
+    border: 3px solid #A5C9CA;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 752px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+/* Footer */
+
+#footer {
+	height: 100px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 10px;
+	line-height: normal;
+	text-align: center;
+	color: #2e4052;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #2e4052;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #383838;
+}
+
+.box1 {
+	overflow: hidden;
+	height: 300px;
+	background: url(images/img04.jpg) no-repeat center bottom;
+}
+
+
+/* Three Column Content */
+
+#three-column {
+	overflow: hidden;
+	padding: 10px 0px 50px 0px;
+}
+
+#three-column .tbox1 {
+	float: left;
+	width: 384px;
+	margin-right: 20px;
+}
+
+#three-column .tbox2 {
+	float: left;
+	width: 384px;
+}
+
+#three-column .tbox3 {
+	float: right;
+	width: 384px;
+}
+
+.box-style {
+	background: #FFFFFF;
+	text-align: center;
+	border-radius: 15px;
+    	overflow: hidden;
+	border: 3px solid #A5C9CA;
+}
+
+.box-style h2 {
+	padding: 10px 0px;
+	letter-spacing: -1px;
+	font-size: 22px;
+	color: #2D2D2D;
+}
+
+.box-style .content {
+	overflow: hidden;
+	width: 324px;
+	padding: 30px;
+}
+
+.button
+{
+	display: inline-block;
+	margin: 1em 0em;
+	background: #000;
+	padding: 1em 2em;
+	color: #FFFFFF;
+}
+/* Font for the rest of the page */
+body, #menu a, h2, h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Font for your name */
+#logo h1 {
+    font-family: 'Lora', Georgia, serif;
+}
+/* Center the container in the third row */
+.portfolio-row {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 50px;
+}
+
+/* Set the container's width */
+.portfolio-row .box-style {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Keep the content inside the container */
+.portfolio-row .content {
+    width: auto;
+}
+/* Center the text in the About section */
+#page .entry {
+    text-align: center;
+}
+#page .entry h2 {
+    font-size: 28px;
+        margin-bottom: 15px;
+}
+/* Arrange each row with consistent spacing */
+#three-column {
+    display: flex;
+    gap: 24px;
+    padding: 30px 0 0;
+    align-items: stretch;
+}
+
+/* Give each column equal width and height */
+#three-column .tbox1,
+#three-column .tbox2,
+#three-column .tbox3 {
+    float: none;
+    width: auto;
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    display: flex;
+}
+
+/* Stretch each container to fill its column */
+#three-column .box-style {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Fit the text inside its container */
+#three-column .content {
+    width: auto;
+}
+/* Let the second-row content fill each container */
+#three-column + #three-column .box-style {
+    display: flex;
+}
+
+#three-column + #three-column .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Align the buttons along the bottom */
+#three-column + #three-column .button {
+    margin-top: auto;
+    align-self: center;
+}
+/* Allow the dropdown to extend below the navigation bar */
+#menu-wrapper,
+#menu {
+    overflow: visible;
+}
+
+/* Keep the navigation above the page content */
+#menu-wrapper {
+    position: relative;
+    z-index: 100;
+}
+
+/* Position the dropdown beneath its button */
+#menu .image-dropdown {
+    position: relative;
+    vertical-align: top;
+}
+
+/* Match the existing navigation buttons */
+#menu .image-dropdown summary {
+    padding: 0 15px;
+    line-height: 52px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+    cursor: pointer;
+    list-style: none;
+}
+
+/* Hide the browser's default arrow */
+#menu .image-dropdown summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Highlight the button when hovered over or opened */
+#menu .image-dropdown summary:hover,
+#menu .image-dropdown details[open] > summary {
+    background: #2E4052;
+}
+
+/* Style the dropdown panel */
+#menu .image-submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 260px;
+    margin: 0;
+    padding: 0;
+    background: #A5C9CA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Stack the choices vertically */
+#menu .image-submenu li {
+    display: block;
+}
+
+/* Style each dropdown link */
+#menu .image-submenu a {
+    padding: 12px 16px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+/* Highlight each choice */
+#menu .image-submenu a:hover,
+#menu .image-submenu a:focus-visible {
+    background: #2E4052;
+    color: #FFFFFF;
+}
+/* Leave space for contact information */
+#contact .content {
+    min-height: 150px;
+}
+/* Reduce space below E-Portfolio */
+#eportfolio {
+    padding-bottom: 10px;
+}
+
+/* Reduce space above Contact Me */
+#contact {
+    padding-top: 17px;
+}
+/* Make Contact Me narrower and keep it centered */
+#contact .box-style {
+    width: 50%;
+    margin: 0 auto;
+}
+#contact .content {
+    min-height: 0;
+    padding: 15px 30px;
+}
+
+#contact .content p {
+    margin-bottom: 0;
+font-size: 15px;
+}
+.back-to-top {
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+#eportfolio .content p {
+    font-size: 15px;
+}
+/* Reduce space below Contact Me */
+#contact {
+    padding-bottom: 6px;
+}
+
+/* Remove extra space above the button */
+.back-to-top .button {
+    margin-top: 7;
+}
+#page .entry h2 {
+    font-size: 22px;
+}
+.box-style h2,
+#page .entry h2 {
+    letter-spacing: 0px;
+}
+#footer {
+    padding-top: 20px;
+}
+
+#footer p {
+    padding-top: 10;
+}
+#logo {
+    margin-bottom: 20px;
+}
